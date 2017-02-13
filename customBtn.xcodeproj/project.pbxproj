@@ -13,6 +13,7 @@
 		544C0FE11E51ADBE0047DAAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544C0FDF1E51ADBE0047DAAC /* Main.storyboard */; };
 		544C0FE31E51ADBE0047DAAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544C0FE21E51ADBE0047DAAC /* Assets.xcassets */; };
 		544C0FE61E51ADBE0047DAAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544C0FE41E51ADBE0047DAAC /* LaunchScreen.storyboard */; };
+		544C0FF01E51AF0A0047DAAC /* CustomBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 544C0FEF1E51AF0A0047DAAC /* CustomBtn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		544C0FE21E51ADBE0047DAAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		544C0FE51E51ADBE0047DAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		544C0FE71E51ADBE0047DAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		544C0FEE1E51AF0A0047DAAC /* CustomBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBtn.h; sourceTree = "<group>"; };
+		544C0FEF1E51AF0A0047DAAC /* CustomBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBtn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		544C0FD51E51ADBE0047DAAC /* customBtn */ = {
 			isa = PBXGroup;
 			children = (
+				544C0FED1E51AEF80047DAAC /* customBtn */,
 				544C0FD91E51ADBE0047DAAC /* AppDelegate.h */,
 				544C0FDA1E51ADBE0047DAAC /* AppDelegate.m */,
 				544C0FDC1E51ADBE0047DAAC /* ViewController.h */,
@@ -77,6 +81,15 @@
 				544C0FD71E51ADBE0047DAAC /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		544C0FED1E51AEF80047DAAC /* customBtn */ = {
+			isa = PBXGroup;
+			children = (
+				544C0FEE1E51AF0A0047DAAC /* CustomBtn.h */,
+				544C0FEF1E51AF0A0047DAAC /* CustomBtn.m */,
+			);
+			path = customBtn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				544C0FDE1E51ADBE0047DAAC /* ViewController.m in Sources */,
+				544C0FF01E51AF0A0047DAAC /* CustomBtn.m in Sources */,
 				544C0FDB1E51ADBE0047DAAC /* AppDelegate.m in Sources */,
 				544C0FD81E51ADBE0047DAAC /* main.m in Sources */,
 			);
