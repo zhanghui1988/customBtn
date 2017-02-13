@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CustomBtn.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor redColor];
+    CustomBtn *btn = [CustomBtn buttonWithType:UIButtonTypeCustom];
+    [btn setTitle:@"账号" forState:UIControlStateNormal];
+    btn.frame = CGRectMake(0, 80, 100, 40);
+    btn.backgroundColor = [UIColor yellowColor];
+    [self.view addSubview:btn];
 }
 
 
